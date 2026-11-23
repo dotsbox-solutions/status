@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "github>dotsbox-solutions/platform//renovate/default"
+  ],
+  "packageRules": [
+    {
+      "description": "No required merge-gate check here, so nothing merges itself: a person or the update routine merges. Remove this rule once the repo is in merge_gate_repos (platform repo, tofu/github/variables.tf).",
+      "matchPackageNames": [
+        "*"
+      ],
+      "automerge": false
+    }
+  ]
+}
