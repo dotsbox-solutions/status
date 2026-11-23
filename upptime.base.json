@@ -1,0 +1,17 @@
+{
+  "owner": "dotsbox-solutions",
+  "repo": "status",
+  "assignees": [],
+  "sites": [],
+  "skipDescriptionUpdate": true,
+  "skipTopicsUpdate": true,
+  "skipHomepageUpdate": true,
+  "skipDeleteIssues": true,
+  "status-website": {
+    "cname": "status.dotsbox.com",
+    "name": "dotsbox status",
+    "introTitle": "The status of the sites dotsbox hosts",
+    "introMessage": "Each site is checked every 5 minutes from GitHub Actions, outside our servers.",
+    "navbar": [{ "title": "Status", "href": "/" }]
+  }
+}
