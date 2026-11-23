@@ -1,0 +1,39 @@
+{
+  "owner": "dotsbox-solutions",
+  "repo": "status",
+  "assignees": [],
+  "sites": [
+    {
+      "name": "dotsbox feedback helper",
+      "url": "https://feedback.dotsbox.com"
+    },
+    {
+      "name": "Dotsbox Solutions",
+      "url": "https://dotsbox.com"
+    },
+    {
+      "name": "dr/cr",
+      "url": "https://app.drcr.ca"
+    },
+    {
+      "name": "Edfam",
+      "url": "https://edfam.ca"
+    }
+  ],
+  "skipDescriptionUpdate": true,
+  "skipTopicsUpdate": true,
+  "skipHomepageUpdate": true,
+  "skipDeleteIssues": true,
+  "status-website": {
+    "cname": "status.dotsbox.com",
+    "name": "dotsbox status",
+    "introTitle": "The status of the sites dotsbox hosts",
+    "introMessage": "Each site is checked every 5 minutes from GitHub Actions, outside our servers.",
+    "navbar": [
+      {
+        "title": "Status",
+        "href": "/"
+      }
+    ]
+  }
+}
