@@ -67,6 +67,10 @@ jobs:
           json.dump(base, open(".upptimerc.yml", "w"), indent=2)
           print("sites:", ", ".join(s["name"] for s in base["sites"]))
           PY
+          # Upptime reads .github/workflows (which secrets its workflows pass) and fails without
+          # it; master has none. Left empty, so git commits nothing there: a workflow file pushed
+          # with this token would be refused anyway.
+          mkdir -p .github/workflows
       - uses: actions/setup-node@v7
         if: env.COMMAND == 'graphs'
         with:
